@@ -1,6 +1,6 @@
 ﻿namespace CodeTest;
 
-public abstract class SchoolPersonnel
+public abstract class Budget
 {
     public abstract double Factor();
     public virtual int SchoolDays() => 200;

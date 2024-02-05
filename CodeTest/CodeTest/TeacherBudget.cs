@@ -1,6 +1,6 @@
 ﻿namespace CodeTest;
 
-public class Teacher : SchoolPersonnel
+public class TeacherBudget : Budget
 {
     public override double Factor() => 1.5d;
 }

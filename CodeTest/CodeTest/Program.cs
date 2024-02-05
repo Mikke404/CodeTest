@@ -2,14 +2,14 @@
 
 using CodeTest;
 
-IEnumerable<SchoolPersonnel> schoolPersonnel = new List<SchoolPersonnel>
+IEnumerable<Budget> schoolPersonnel = new List<Budget>
 {
-    new Teacher(),
-    new Pedagogue(),
-    new SchoolLeader(),
+    new TeacherBudget(),
+    new PedagogueBudget(),
+    new SchoolLeaderBudget(),
 };
 
-foreach (SchoolPersonnel personnel in schoolPersonnel)
+foreach (Budget personnel in schoolPersonnel)
 {
     Console.WriteLine($"Budget for {personnel.GetType().Name} : {personnel.Result()}");
 }
